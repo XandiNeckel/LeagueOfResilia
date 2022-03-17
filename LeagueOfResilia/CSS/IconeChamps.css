@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(34, 4, 4);
+}
+
+body {
+    background-image: url(../Imagens/fundoicone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div {
+    display: flex;
+}
+
+.titlelor {
+    width: 450px;
+    display: flex;
+    align-items: center;
+
+}
