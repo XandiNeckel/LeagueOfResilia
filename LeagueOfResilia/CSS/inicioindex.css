@@ -51,7 +51,7 @@
     font-size: 40px;
     background-color: #111111;
     display: flex;
-    width: 225px;
+    width: 250px;
     min-height: 80px;
     border: 2px solid #835703;
     color: #835703;
@@ -59,6 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Righteous;
 }
 
 p {

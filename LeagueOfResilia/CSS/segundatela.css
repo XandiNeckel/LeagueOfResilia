@@ -5,68 +5,70 @@
     color: rgb(15, 2, 2);
 }
 
-.retornar{
+.retornar {
     height: 30px;
 }
 
-.imgletra{
+.imgletra {
     width: 60px;
     height: 60px;
 }
-   p { 
-    vertical-align: inherit;
-    font-size: 60px;
-    text-align: center;
-    color: rgb(241, 194, 36);
-    -webkit-text-stroke: 2px rgb(14, 1, 1);
-    stroke: 1px rgb(241, 234, 234); 
-    
-} 
-
-
-.imgfundo{
-    background-image:url(https://i.pinimg.com/originals/40/f4/c5/40f4c5c34c1c1731e3a1b12695b44d2a.jpg);
+ 
+.imgfundo {
+    background-image: url(https://i.pinimg.com/originals/40/f4/c5/40f4c5c34c1c1731e3a1b12695b44d2a.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;   
-    
+    background-size: cover;
+
 }
-.champs{
+
+.champs {
     width: 400px;
     height: 460px;
 }
-.title{
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
 }
-.logo{
-    height: 100px;   
+
+.logo {
+    height: 100px;
 }
-.btn{
+
+.btn {
     text-align: center;
     border-radius: 5px;
     font-size: 40px;
-    background-color: #111111;
+    background-color: #362c2c;
     display: flex;
     width: 300px;
     min-height: 80px;
-    border:2px solid #835703;
+    border: 2px solid #0a0000;
     color: #835703;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-p{
-    font-size: 42px;
+
+p,.btn {
+    font-size: 35px;
     display: flex;
     text-align: left;
+    font-family:Righteous;
+    
+
+    vertical-align: inherit;
+    color: rgb(241, 194, 36);
+    -webkit-text-stroke: 2px rgb(14, 1, 1);
+    stroke: 1px rgb(241, 234, 234);
 }
-.imgjogo{
+
+.imgjogo {
     width: 700px;
     height: 760px;
     border-radius: 200px;

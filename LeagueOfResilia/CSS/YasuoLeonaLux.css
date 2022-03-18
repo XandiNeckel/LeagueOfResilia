@@ -4,38 +4,59 @@
     box-sizing: border-box;
     color: rgb(27, 2, 2);
 }
+h2 {
+    font-size: 35px;
+    display: flex;
+    text-align: left;
+    font-family:Righteous;
+    
+
+    vertical-align: inherit;
+    color: rgb(241, 194, 36);
+    -webkit-text-stroke: 2px rgb(14, 1, 1);
+    stroke: 1px rgb(241, 234, 234);
+}
+
+
 .logo {
     height: 70px;
+    display: flex;
+    align-items: center;
 }
- .Yasuo{
+
+.Yasuo {
     width: 440px;
     height: 500px;
 }
-.Leona{
+
+.Leona {
     width: 420px;
     height: 420px;
-} 
-.Lux{
-    
+}
+
+.Lux {
+
     height: 400px;
 }
-.yasuofundo{
+
+.yasuofundo {
     background-image: url(../Imagens/yasuofundo-.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.leonafundo{
-    background-image:url(../Imagens/leonafundoicone.png);
+
+.leonafundo {
+    background-image: url(../Imagens/leonafundoicone.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.luxfundo{
-    background-image:url(../Imagens/luxfundos.jpg);
+.luxfundo {
+    background-image: url(../Imagens/luxfundos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

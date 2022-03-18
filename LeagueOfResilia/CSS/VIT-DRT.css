@@ -1,14 +1,27 @@
-.VITÓRIA{
-    background-image:url(../Imagens/vitória.jpg);
+.VITÓRIA {
+    background-image: url(../Imagens/vitória.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-.DERROTA{
+
+.DERROTA {
     background-image: url(../Imagens/derrotagameover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+ /* {font-size: 35px;
+display: flex;
+text-align: left;
+font-family:Righteous;
+color: gold;
+
+vertical-align: inherit;
+color: rgb(241, 194, 36);
+-webkit-text-stroke: 2px rgb(14, 1, 1);
+stroke: 1px rgb(241, 234, 234);
+} */

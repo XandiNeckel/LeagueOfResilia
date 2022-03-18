@@ -4,17 +4,43 @@
     box-sizing: border-box;
     color: rgb(34, 4, 4);
 }
+h2{
+    font-family:Righteous;
+    color: gold;
+}
+.nickchamps{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 40px;
+    background-color: #111111;
+    display: flex;
+    width: 150px;
+    min-height: 10px;
+    border: 2px solid #e9f0f0;
+    color: #e4e3e2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
 
+a{
+    text-decoration: none;
+}
 body {
     background-image: url(../Imagens/paisagemfundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+ 
 }
 
-div {
+span{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titlelor {
@@ -24,14 +50,19 @@ div {
 
 }
 
-.arrumaricone {
-    width: 300px;
+.arrumariconeyasuo {
+    width: 520px;
 
 
 }
-.arrumariconelux{
-    width: 460px;
+.arrumariconeleona{
+    width: 390px;
 }
-.retornar{
+
+.arrumariconelux {
+    width: 550px;
+}
+
+.retornar {
     height: 30px;
 }
