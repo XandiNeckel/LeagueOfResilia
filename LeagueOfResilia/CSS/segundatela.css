@@ -4,12 +4,11 @@
     box-sizing: border-box;
     color: rgb(15, 2, 2);
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: rgb(24, 4, 4);
+
+.retornar{
+    height: 30px;
 }
+
 .imgletra{
     width: 60px;
     height: 60px;
@@ -70,7 +69,8 @@ p{
 .imgjogo{
     width: 700px;
     height: 760px;
-    border-radius: 270px;
+    border-radius: 200px;
+    opacity: 80%;
 }
 
 /* PARTE 2, INTRODUÇÃO DO JOGO, UM BREVE RESUMO */

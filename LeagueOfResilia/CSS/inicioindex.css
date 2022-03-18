@@ -21,7 +21,7 @@
 } */
 
 .imgfundo {
-    background-image: url(../Imagens/imgindexfundo.jpg);
+    background-image: url(../Imagens/fundoicone.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -42,7 +42,7 @@
 }
 
 .logo {
-    height: 100px;
+    height: 70px;
 }
 
 .btn {
@@ -51,7 +51,7 @@
     font-size: 40px;
     background-color: #111111;
     display: flex;
-    width: 300px;
+    width: 225px;
     min-height: 80px;
     border: 2px solid #835703;
     color: #835703;

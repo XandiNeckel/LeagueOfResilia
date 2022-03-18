@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(../Imagens/fundoicone.jpg);
+    background-image: url(../Imagens/paisagemfundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,12 +23,15 @@ div {
     align-items: center;
 
 }
-.arrumaricone{
+
+.arrumaricone {
     width: 300px;
-    
-    
+
+
 }
-.arrumariconeleona{
-    width: 300px;
-    border-radius: 100%;
+.arrumariconelux{
+    width: 460px;
+}
+.retornar{
+    height: 30px;
 }
