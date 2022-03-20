@@ -51,18 +51,27 @@ span{
 }
 
 .arrumariconeyasuo {
-    width: 520px;
+    width: 100%;
 
 
 }
 .arrumariconeleona{
-    width: 390px;
+    width: 100%;
 }
 
 .arrumariconelux {
-    width: 550px;
+    width: 100%;
+}
+.containerimagem{
+    width: 25%;
+    display: flex;
+    align-items: center;
+   
+}
+.containerimagem a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.retornar {
-    height: 30px;
-}

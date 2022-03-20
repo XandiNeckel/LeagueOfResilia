@@ -5,12 +5,9 @@
     color: rgb(27, 2, 2);
 }
 h2 {
-    font-size: 35px;
+    font-size: 45px;
     display: flex;
-    text-align: left;
     font-family:Righteous;
-    
-
     vertical-align: inherit;
     color: rgb(241, 194, 36);
     -webkit-text-stroke: 2px rgb(14, 1, 1);
@@ -27,16 +24,18 @@ h2 {
 .Yasuo {
     width: 440px;
     height: 500px;
+    display: flex;
 }
 
 .Leona {
     width: 420px;
     height: 420px;
+    display: flex;
 }
 
 .Lux {
-
-    height: 400px;
+    height: 350px;
+    display: flex;
 }
 
 .yasuofundo {
@@ -62,3 +61,23 @@ h2 {
     background-position: center;
     background-attachment: fixed;
 }
+
+button{
+    text-align: center;
+    font-size: 30px;
+    background-color: #02060f;
+    display: flex;
+    width: 176px;
+    height: 75px;
+    border: 4px solid #f3f3f7;
+    color: #f5eeee;
+    text-decoration: none;
+    align-items: center;
+    font-family: Righteous;
+}
+.btnquizlado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
