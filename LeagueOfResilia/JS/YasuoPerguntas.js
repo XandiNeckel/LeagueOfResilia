@@ -1,10 +1,10 @@
-function yasuoPergunta1() {//FUNÇÃO+NOME FUNÇÃO
+function yasuoPergunta1() { //FUNÇÃO+NOME FUNÇÃO
     var Pergunta = prompt(`Alternativas:\n
     A: Avanço e tento matar o inimigo fidado\n
     B: Fico na torre e não farmo\n
     C: Espero o gank de meu jungler para abate-lo
     `)
-    
+
     while (true) { //REPETIÇÃO COM WHILE
         // E SE: SE A RESPOSTA FOR: A = DERROTA
         if (Pergunta.toUpperCase() === 'A') { //UPPER CASE PARA DEIXAS TODAS LETRAS MAIUSCULAS
@@ -12,11 +12,11 @@ function yasuoPergunta1() {//FUNÇÃO+NOME FUNÇÃO
             break;
         } else if (Pergunta.toUpperCase() === 'B') {
             location.href = '../../DERROTA.html'
-            break;                                          //BREAK PARA FREIAR/PAUSAR/PARAR
+            break; //BREAK PARA FREIAR/PAUSAR/PARAR
         } else if (Pergunta.toUpperCase() === 'C') {
             location.href = './Yasuo-Pergunta2.html'
             break;
-        } else {                                        
+        } else {
             alert('Resposta Incorreta!') //RESPOSTAS. **PERGUNTAS NA IMAGEM**
             Pergunta = prompt(`Alternativas:\n  
             A: Avanço e tento matar o inimigo fidado\n  
@@ -26,6 +26,7 @@ function yasuoPergunta1() {//FUNÇÃO+NOME FUNÇÃO
         }
     }
 }
+
 
 function yasuoPergunta2() {
     var Pergunta = prompt(`Alternativas:\n
@@ -57,10 +58,11 @@ function yasuoPergunta2() {
     }
 }
 
+
 function yasuoPergunta3() {
     var Pergunta = prompt(`Alternativas:\n
     A: Splito full mid\n
-    B: Splito full top\h
+    B: Splito full top\n
     C: Splito full bot
 
     `)

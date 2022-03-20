@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(34, 4, 4);
+}
+
 .VITÓRIA {
     background-image: url(../Imagens/vitória.jpg);
     background-repeat: no-repeat;
@@ -14,7 +21,8 @@
     background-attachment: fixed;
 }
 
- /* {font-size: 35px;
+
+/* {font-size: 35px;
 display: flex;
 text-align: left;
 font-family:Righteous;

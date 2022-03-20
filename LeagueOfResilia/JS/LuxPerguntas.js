@@ -43,7 +43,7 @@ function luxPergunta2() {
             location.href = '../../DERROTA.html'
             break;
         } else if (Pergunta.toUpperCase() === 'B') {
-            location.href = './Yasuo-Pergunta2.html'
+            location.href = './Lux-Pergunta3.html'
             break;
         } else if (Pergunta.toUpperCase() === 'C') {
             location.href = '../../DERROTA.html'
@@ -51,9 +51,9 @@ function luxPergunta2() {
         } else {
             alert('Resposta Incorreta!')
             Pergunta = prompt(`Alternativas:\n
-            A:Haduken\n
-            B:Demacia!\n
-            C:Desapareça!
+            A: Haduken\n
+            B: Demacia!\n
+            C: Desapareça!
             `)
         }
     }
@@ -62,9 +62,9 @@ function luxPergunta2() {
 
 function luxPergunta3() {
     var Pergunta = prompt(`Alternativas:\n
-    A:Ficar fightando a todo momento\n
-    B:Ficar parado na base aliada\n
-    C:Dragões e Arautos
+    A: Ficar figthando a todo momento\n
+    B: Ficar parado na base aliada\n
+    C: Dragões e Arautos
     
     `)
 
@@ -82,7 +82,7 @@ function luxPergunta3() {
         } else {
             alert('Resposta Incorreta!')
             Pergunta = prompt(`Alternativas:\n
-            A:Ficar fightando a todo momento\n
+            A:Ficar figthando a todo momento\n
             B:Ficar parado na base aliada\n
             C:Dragões e Arautos
             `)
