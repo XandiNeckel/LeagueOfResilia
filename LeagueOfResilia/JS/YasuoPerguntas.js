@@ -43,7 +43,7 @@ function yasuoPergunta2() {
             location.href = '../../DERROTA.html'
             break;
         } else if (Pergunta.toUpperCase() === 'C') {
-            location.href = './Yasuo-Pergunta3.html'
+            window.location.href = './Yasuo-Pergunta3.html'
             break;
         } else {
             alert('Resposta Incorreta!')
@@ -59,9 +59,9 @@ function yasuoPergunta2() {
 
 function yasuoPergunta3() {
     var Pergunta = prompt(`Alternativas:\n
-    A: Esplito full mid\n
-    B: Esplito full top\h
-    C: Esplito full bot
+    A: Splito full mid\n
+    B: Splito full top\h
+    C: Splito full bot
 
     `)
 
@@ -79,9 +79,9 @@ function yasuoPergunta3() {
         } else {
             alert('Resposta Incorreta!')
             Pergunta = prompt(`Alternativas:\n
-            A: Esplito full mid\n
-            B: Esplito full top\h
-            C: Esplito full bot
+            A: Splito full mid\n
+            B: Splito full top\n
+            C: Splito full bot
             `)
         }
     }
