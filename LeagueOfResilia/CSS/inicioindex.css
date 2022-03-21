@@ -73,3 +73,21 @@ p {
     height: 760px;
     border-radius: 270px;
 }
+@media (max-width: 510px){
+    .logo{
+        width: 90%;
+        height: auto;
+    }
+    .btn{
+        width: 90%;
+        min-height: 50px;
+        font-size: 22px;
+    }
+    .title{
+        justify-content: space-between;
+        padding: 10% 0;
+    }
+    .imgfundo{
+        background-position: 90%;
+    }
+}
