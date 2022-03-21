@@ -7,6 +7,8 @@
 h2{
     font-family:Righteous;
     color: gold;
+    -webkit-text-stroke: 1px rgb(14, 1, 1);
+    font-size: 28px;
 }
 .nickchamps{
     text-align: center;
@@ -46,9 +48,10 @@ span{
 .titlelor {
     width: 450px;
     display: flex;
-    align-items: center;
+    margin: auto;
 
 }
+
 
 .arrumariconeyasuo {
     width: 100%;

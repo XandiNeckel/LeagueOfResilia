@@ -16,7 +16,7 @@ h2 {
 
 
 .logo {
-    height: 70px;
+    height: 50px;
     display: flex;
     align-items: center;
 }
@@ -78,7 +78,7 @@ h2 {
 }
 
 .leonafundo3{
-    background-image: url(../Imagens/leonafundo2.jpg);
+    background-image: url(../Imagens/iconeleonap3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

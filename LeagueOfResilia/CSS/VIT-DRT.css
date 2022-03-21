@@ -4,9 +4,14 @@
     box-sizing: border-box;
     color: rgb(34, 4, 4);
 }
+.logo1 {
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
 
 .VITÓRIA {
-    background-image: url(../Imagens/vitória.jpg);
+    background-image: url(../Imagens/victóriagif.gif);   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,7 +19,7 @@
 }
 
 .DERROTA {
-    background-image: url(../Imagens/derrotagameover.jpg);
+    background-image: url(../Imagens/gameovergifff.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
