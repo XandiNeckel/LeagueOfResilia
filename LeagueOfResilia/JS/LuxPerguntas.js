@@ -74,17 +74,17 @@ function luxPergunta3() {
             location.href = '../../DERROTA.html'
             break;
         } else if (Pergunta.toUpperCase() === 'B') {
-            location.href = '../../VITÓRIA.html'
+            location.href = '../../DERROTA.html'
             break;
         } else if (Pergunta.toUpperCase() === 'C') {
-            location.href = '../../DERROTA.html'
+            location.href = '../../VITÓRIA.html'
             break;
         } else {
             alert('Resposta Incorreta!')
             Pergunta = prompt(`Alternativas:\n
             A:Ficar figthando a todo momento\n
             B:Ficar parado na base aliada\n
-            C:Dragões e Arautos
+            C:Dragões e Arautos/Brão/Ancião
             `)
         }
     }

@@ -67,7 +67,7 @@ p {
     display: flex;
     text-align: left;
 }
-
+/* TENTANDO FAZER O JOGO SER 'RODAVEL' EM OUTROS TAMANHOS DE TELA */
 .imgjogo {
     width: 700px;
     height: 760px;

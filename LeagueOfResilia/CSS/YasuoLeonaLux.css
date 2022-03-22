@@ -20,7 +20,7 @@ h2 {
     display: flex;
     align-items: center;
 }
-
+/* Personagens */
 .Yasuo {
     width: 480px;
     height: 500px;
@@ -38,7 +38,7 @@ h2 {
     display: flex;
 }
 
-
+/* IMAGEM DE FUNDO DE CADA PERSONAGEM */
 
 .yasuofundo {
     background-image: url(../Imagens/yasuofundo-.jpg);
