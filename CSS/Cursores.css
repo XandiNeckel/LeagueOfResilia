@@ -1,0 +1,10 @@
+*{
+    cursor: url('../Imagens/cursor/normal.png'),auto;
+    
+}
+button, a ,.btn, .btnlogo{
+    cursor: url('../Imagens/cursor/button.png'),pointer;
+}
+.info,.infoimgjogo{
+    cursor: url('../Imagens/cursor/info.png'),help;
+}
